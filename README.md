@@ -6,9 +6,14 @@ Hello there! 👋🏽
 
 In this repository, I'm documenting my journey of learning and experimenting with code.
 
+# Power Bi Dashboard
+![Dashboard](DataManipulation_withPandas)
+
 # Let's start exploring data
 
 When you get a new DataFrame to work with, the first thing you need to do is explore it and see what it contains. The following code cells show useful methods and attributes for this.
+![first Rows](https://www.datacamp.com/datalab/w/56af03e9-ef4f-43ea-86f4-6c599617e82b/edit)
+
 
 ### Return the first few rows of a DataFrame
 ```diff
@@ -61,8 +66,8 @@ When you get a new DataFrame to work with, the first thing you need to do is exp
 ### Define a custom function: this one computes the inter-quartile range (IQR)
 
 ```diff
-+ def iqr(column):
-+  return column.quantile(0.75) - column.quantile(0.25)
+  def iqr(column):
+    return column.quantile(0.75) - column.quantile(0.25)
 ```
 ### Apply multiple functions
 
@@ -82,12 +87,12 @@ a fill_value argument to define what should replace missing values.
 a margins argument. Setting this to True enables summary statistics for multiple levels of the dataset.
 
 ```diff
-+ print(avocado.pivot_table(
-+   values="avg_price",
-+   index="year",
-+   aggfunc=[np.mean, np.max],
-+   columns="size",
-+   margins=True,
+  print(avocado.pivot_table(
+    values="avg_price",
+    index="year",
+    aggfunc=[np.mean, np.max],
+    columns="size",
+    margins=True,
 ))
 ```
 
