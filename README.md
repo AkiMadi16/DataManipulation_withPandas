@@ -7,12 +7,18 @@ Hello there! 👋🏽
 In this repository, I'm documenting my journey of learning and experimenting with code.
 
 # Power Bi Dashboard
-![Dashboard](DataManipulation_withPandas)
+![Dashboard](https://github.com/AkiMadi16/DataManipulation_withPandas/blob/main/output_images/avo-image%202.png)
+
+#Data visualization with creating Data frames. Display plots call plt.show()
+![df plot](https://github.com/AkiMadi16/DataManipulation_withPandas/blob/main/output_images/bar_plot.png)
+
+![Df 2](https://github.com/AkiMadi16/DataManipulation_withPandas/blob/main/output_images/line_plot.png)
+
+
 
 # Let's start exploring data
 
 When you get a new DataFrame to work with, the first thing you need to do is explore it and see what it contains. The following code cells show useful methods and attributes for this.
-![first Rows](https://www.datacamp.com/datalab/w/56af03e9-ef4f-43ea-86f4-6c599617e82b/edit)
 
 
 ### Return the first few rows of a DataFrame
